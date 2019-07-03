@@ -1,2 +1,3 @@
 n=int(input())
-print((n*(n+1))//2)
+k=((n*(n+1))//2)
+print(k)
