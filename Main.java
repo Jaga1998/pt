@@ -6,7 +6,7 @@ import java.io.*;
 
 // Java program to find whether an array 
 // is subset of another array 
-class Main 
+public class Main 
 { 
 	/* Return true if arr2[] is a subset of arr1[] */
 	static boolean isSubset(int arr1[], int arr2[], int m, int n) 
