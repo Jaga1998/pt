@@ -6,8 +6,7 @@ public class Permutation
 { 
 	public static void main(String[] args) 
 	{  Scanner sc=new Scanner(System.in);
-		int number=sc.nextInt();
-		String str=Integer.toString(number);
+		String str=sc.next();
 		int n = str.length(); 
 		Permutation permutation = new Permutation(); 
 		permutation.permute(str, 0, n-1); 
