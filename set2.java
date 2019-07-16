@@ -22,7 +22,7 @@ public class Set2
 			int u=sc.nextInt();
 			int v=sc.nextInt();
 			int sum=0;
-			for(int i=u-1;i<v-1;i++)
+			for(int i=u-1;i<v;i++)
 			{
 				sum=sum+arr[i];
 			}
