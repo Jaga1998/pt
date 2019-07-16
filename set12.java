@@ -20,7 +20,7 @@ public class set12
 			int u=sc.nextInt();
 			int v=sc.nextInt();
 			int min=arr[u-1];
-			for(int i=u-1;i<v-1;i++)
+			for(int i=u-1;i<v;i++)
 			{ 
 				if(arr[u-1]<arr[i])
 				min=arr[u-1];
