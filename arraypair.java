@@ -48,7 +48,7 @@ public class arraypair
 		
 		// Function calling 
 		if(hasArrayTwoCandidates(A, arr_size, n)) 
-			System.out.println("Yes"); 
+			System.out.println("yes"); 
 		else
 			System.out.println("no"); 
 	
