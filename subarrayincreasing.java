@@ -67,5 +67,4 @@ public class subarrayincreasing {
 		
 		} 
 	} 
-	
-// This code is contributed by Arnav Kr. Mandal. 
+	 
