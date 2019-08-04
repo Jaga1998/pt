@@ -19,15 +19,15 @@ public class queue
 			arr[i]=sc.nextInt();
 		}
 		Arrays.sort(arr);
-		int count=1;
+		int count=0;
 		int count2=0;
 		for(int i=0;i<n;i++)
 		{
-			if(arr[i]>count)
+			if(arr[i]>=count)
 			{
 				count2++;
 			}
-			count=count+i;
+			count=count+arr[i];
 		}
 		System.out.println(count2);
 	}
