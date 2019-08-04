@@ -36,7 +36,7 @@ public class findaverage
 		   if(avg==avg1)
 			System.out.println("Yes");
 		    else
-		   System.out.println("No");
+		   System.out.println("no");
 		}
 		if(n%2==1)
 		{
@@ -53,7 +53,7 @@ public class findaverage
 		   if(avg==avg1&&avg==arr[n/2])
 		  System.out.println("Yes");
 		    else
-		   System.out.println("No");	
+		   System.out.println("no");	
 		}
 	}
 	}
