@@ -34,7 +34,7 @@ public class findaverage
 		 avg=sum/(n/2);
 		 avg1=sum1/(n/2);
 		   if(avg==avg1)
-			System.out.println("Yes");
+			System.out.println("yes");
 		    else
 		   System.out.println("no");
 		}
@@ -51,7 +51,7 @@ public class findaverage
 	   avg=sum/(n/2);
 		avg1=sum1/(n/2);
 		   if(avg==avg1&&avg==arr[n/2])
-		  System.out.println("Yes");
+		  System.out.println("yes");
 		    else
 		   System.out.println("no");	
 		}
