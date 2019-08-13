@@ -11,7 +11,7 @@ public class cost
       	int n1=str1.length();
       	int n2=str2.length();
       	int k= Math.abs(n2-n1);
-      	for(int i=0,j=0;i<n1&&j<n2;i++,j++)
+      	for(int i=0,j=0;i<n1&&j<n2-1;i++,j++)
       	{
       		if(str1.charAt(i)!=str2.charAt(j))
       		{
