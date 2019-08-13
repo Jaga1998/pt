@@ -27,6 +27,6 @@ public class cost1
 		String s1=sc.next();
 		String s2=sc.next();
 		int result=updation(s1,s2);
-		System.out.println(Math.abs(result);
+		System.out.println(Math.abs(result));
 	}
 }
